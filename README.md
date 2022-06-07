@@ -39,8 +39,8 @@ Description
 Welcome to the Alchemy Farm! For this deliverable, you will practice creating functional components, mapping through lists and rendering a component for each item.
 
 ✅ There is a list of animals provided for you in data.js, 
-as well as an empty <Main /> component 
-and an empty <Animal /> component. 
+✅ as well as an empty <Main /> component 
+✅ and an empty <Animal /> component. 
 You need to add the code to display the animals by mapping through the list provided 
 and rendering an <Animal /> component for each animal. 
 
