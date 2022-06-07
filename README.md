@@ -47,7 +47,7 @@ and rendering an <Animal /> component for each animal.
 The final product should look like this: 
 
 Acceptance Criteria
-<Main /> should import background.png and set it as a background image on the <main> element
+✅ <Main /> should import background.png and set it as a background image on the <main> element
 
 <Main /> component should use a .map to loop through and render an <Animal /> component for each animal listed in data.js
 Animals should be positioned dynamically using the style attribute in JSX and props

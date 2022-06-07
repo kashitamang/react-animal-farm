@@ -1,5 +1,6 @@
 import './App.css';
 //import animals data here 
+import { animals } from './data.js';
 //import animal card here 
 
 import Footer from '../src/components/Footer/Footer.js';
@@ -16,7 +17,7 @@ function App() {
         <Footer year="2022"/>
       }
       {
-        <Main/>
+        <Main animals={animals}/>
       }
     </div>
   );

@@ -1,9 +1,13 @@
 .animal-card {
     width: 200px;
-    background-color: red;
     margin: 10px;
-    border: 2px solid white;
+    background-color: white;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .animal-card img {
@@ -12,5 +16,5 @@
 
 .animal-card .name {
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
 }
