@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       {
-        <Header name="kashi"/>
+        <Header name="Kashi"/>
       }
       {
         <Footer year="2022"/>
