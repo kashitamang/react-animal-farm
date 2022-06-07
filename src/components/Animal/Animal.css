@@ -1,0 +1,16 @@
+.animal-card {
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.animal-card img {
+    width: 100px;
+}
+
+.animal-card .name {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
