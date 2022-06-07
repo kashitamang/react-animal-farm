@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
 
-export default function Header() {
-  return <header>Alchemy Animal Farm</header>;
+export default function Header(props) {
+  return <header>Alchemy Animal Farm By: {props.name}</header>;
 }
