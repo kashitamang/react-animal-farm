@@ -1,7 +1,10 @@
 import './App.css';
-import { animals } from './data.js';
+//import animals data here 
+//import animal card here 
+
 import Footer from '../src/components/Footer/Footer.js';
 import Header from './components/Header/Header.js';
+import Main from './components/Main/Main.js';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       }
       {
         <Footer year="2022"/>
+      }
+      {
+        <Main/>
       }
     </div>
   );
