@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 //import animals data here 
 import { animals } from './data.js';
@@ -10,15 +11,9 @@ import Main from './components/Main/Main.js';
 function App() {
   return (
     <div className="App">
-      {
-        <Header name="Kashi"/>
-      }
-      {
-        <Footer year="2022"/>
-      }
-      {
-        <Main animals={animals}/>
-      }
+      <Header name="Kashi"/>
+      <Footer year="2022"/>
+      <Main animals={animals}/>
     </div>
   );
 }
