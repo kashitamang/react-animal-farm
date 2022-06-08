@@ -1,0 +1,26 @@
+.animal-card {
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.animal-card img {
+    width: 100px;
+}
+
+.animal-card .name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.animal-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
